@@ -1,0 +1,27 @@
+html {
+    font-size: 10px;
+}
+
+body{
+    margin: 0;
+}
+
+section  {
+    /* width: 10em;  4 times of font-size and other all 2 times  */
+    width: 10em;
+    padding: 2em;
+    margin: 2em;
+    font-size: 2em;
+    box-sizing: border-box;
+    background-color: bisque;
+}
+
+.box {
+    background-color: aqua;
+    /* width: 5rem;   5 times of font-size of html */
+    width: 5rem;
+    padding: 2em;
+    font-size: 2em;
+    margin: 2em;
+
+}
