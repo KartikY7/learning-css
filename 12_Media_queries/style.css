@@ -1,0 +1,29 @@
+.square {
+    background-color: aquamarine;
+    border: 15px solid burlywood;
+    width: 400px;
+    height: 400px;
+    /* print-color-adjust: exact; */
+    /* -webkit-print-color-adjust: exact; */
+}
+
+@media (500px <= width <= 700px) {
+    .square {
+        border: 15px solid red;
+        background-color: chartreuse;
+    }
+}
+
+/* @media (max-width: 700px) {
+    .square {
+        border: 15px solid red;
+        background-color: chartreuse;
+    }
+} */
+
+/* @media (width <= 700px) {
+    .square {
+        border: 15px solid red;
+        background-color: chartreuse;
+    }
+} */
