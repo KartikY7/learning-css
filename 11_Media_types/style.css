@@ -1,0 +1,15 @@
+.square {
+    background-color: aquamarine;
+    border: 15px solid burlywood;
+    width: 400px;
+    height: 400px;
+    /* print-color-adjust: exact; */
+    /* -webkit-print-color-adjust: exact; */
+}
+
+@media print {
+    .square {
+        border: 15px solid red;
+        background-color: chartreuse;
+    }
+}
