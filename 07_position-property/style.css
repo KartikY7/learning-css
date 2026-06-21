@@ -1,0 +1,48 @@
+div {
+    position: relative;
+    background-color: aqua;
+    /* top: 5px;
+    bottom: 5px;
+    right: 5px;
+    left: 5px; */
+    /* inset: 5px; */
+}
+
+ul {
+    /* position: relative; */
+    background-color: brown;
+    height: 300px;
+    margin-top: -100px;
+    /* top: 50px; */
+    /* overflow-y: scroll; */
+}
+
+.css-element {
+    background-color: antiquewhite;
+    position: absolute;
+    top: 56px;
+    /* left: 5px;
+    right:5px; */
+    /* bottom: 5px; */
+    /* inset: 5px; */
+}
+
+.js-element {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    background-color: chartreuse;
+}
+
+.html-element {
+    position: sticky;
+    background-color: darkkhaki;
+    /* top: 25px; */
+}
+
+header {
+    background-color: chocolate;
+    position: sticky;
+    top: 0;
+}
